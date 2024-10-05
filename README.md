@@ -69,6 +69,8 @@ assign COUT=(A&B) | (CIN&(A^B));
 
 endmodule
 
+<br/>
+
 module fulladd_4bit(A,B,C0,S,C4);
 
 input [3:0] A,B;
@@ -90,6 +92,8 @@ full_adder fa2 (A[2],B[2],C2,S[2],C3);
 full_adder fa3 (A[3],B[3],C3,S[3],C4);
 
 endmodule
+
+<br/>
 
 module test_4bit;
 
@@ -119,6 +123,8 @@ end initial
 
 endmodule
 
+<br/>
+
 ## Functional Simulation: 
 
 	Invoke the cadence environment by type the below commands 
@@ -130,6 +136,8 @@ endmodule
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+
+![Screenshot 2024-10-05 085626](https://github.com/user-attachments/assets/a505dfd2-ec62-4fd4-ad0a-77f6ada6c098)
 
 ### Fig 3:Invoke the Cadence Environment
 
