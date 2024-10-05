@@ -57,6 +57,8 @@ Note : File name should be with HDL Extension
 
 •	fa_4bit_test.v → Test bench 
 
+<br/>
+
 module full_adder(A,B,CIN,S,COUT);
 
 input A,B,CIN;
@@ -151,11 +153,15 @@ or
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+<img src="https://github.com/user-attachments/assets/8a073c61-cb61-4fd8-bfba-e80104334786" width="750" height="480">
+
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+
+<img src="https://github.com/user-attachments/assets/2109b455-2796-4900-a211-93b2a7f99b94" width="750" height="480">
 
 ### Fig 5:cds.lib file Creation
 
@@ -198,6 +204,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
+<img src="https://github.com/user-attachments/assets/d3d5348d-66db-47e6-8c3d-fabd8ce6f5d9" width="750" height="480">
+
 ### Fig 8: Compiled database in worklib
 
 	After compilation it will come under worklib you can see in right side window
@@ -233,11 +241,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	Steps for simulation – Run the simulation command with simulator options
 
+<img src="https://github.com/user-attachments/assets/ce306fca-cb52-44ad-b6c8-70613abdc382" width="750" height="480">
+
 ### Fig 10: Design Browser window for simulation
 
-### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+<img src="https://github.com/user-attachments/assets/36782a6a-6ade-4487-8fdb-e0fb9a731892" width="750" height="480">
 
-### Fig 12: Simulation Waveform Window
+### Fig 11: Simulation Waveform Window
 
 
 
