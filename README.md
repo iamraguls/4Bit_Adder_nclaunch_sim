@@ -125,8 +125,6 @@ end initial
 
 endmodule
 
-<br/>
-
 ## Functional Simulation: 
 
 	Invoke the cadence environment by type the below commands 
